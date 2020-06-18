@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<ChartOfAccounts uuid="7f9a85d5-89d8-4f12-ba57-2de246ab983c">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfAccountsObject.Основной" category="Object">
+				<xr:TypeId>bcfa086e-59dd-41ea-af1d-81fb8eb38e0a</xr:TypeId>
+				<xr:ValueId>a48fae18-7628-4071-ad59-d8ebd33e128b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsRef.Основной" category="Ref">
+				<xr:TypeId>dfe99de0-0703-42f3-9c7b-37eccf37a0e6</xr:TypeId>
+				<xr:ValueId>705d7a27-9de6-441b-bd39-8e0d969e9df8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsSelection.Основной" category="Selection">
+				<xr:TypeId>1ce3e101-37dc-4116-979d-be0a22f854ee</xr:TypeId>
+				<xr:ValueId>d11fdc01-dae3-4619-95cd-6700b1a1dfca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsList.Основной" category="List">
+				<xr:TypeId>c0c6777b-d71f-4a5a-8034-f3e0a7d91b42</xr:TypeId>
+				<xr:ValueId>74719bf4-fa3e-4064-a6ed-f5ae82642cae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsManager.Основной" category="Manager">
+				<xr:TypeId>ab2574e1-8b92-4c3b-8276-d7dde2a2b5ff</xr:TypeId>
+				<xr:ValueId>aebced74-8a3d-4d04-9aeb-a9ec26d0f28a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypes.Основной" category="ExtDimensionTypes">
+				<xr:TypeId>28a450ac-26f4-48ef-bf12-41269531790e</xr:TypeId>
+				<xr:ValueId>dd19a978-1bbc-4837-a93e-5b46466d018c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypesRow.Основной" category="ExtDimensionTypesRow">
+				<xr:TypeId>4f468b6c-0774-40a4-8863-e380fbc0fa66</xr:TypeId>
+				<xr:ValueId>4f7f3b81-3e93-4088-a513-efcd619359dc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Основной</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основной</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<BasedOn/>
+			<ExtDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</ExtDimensionTypes>
+			<MaxExtDimensionCount>2</MaxExtDimensionCount>
+			<CodeMask/>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeSeries>WholeChartOfAccounts</CodeSeries>
+			<CheckUnique>true</CheckUnique>
+			<DefaultPresentation>AsCode</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ChartOfAccounts.Основной.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfAccounts.Основной.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AutoOrderByCode>false</AutoOrderByCode>
+			<OrderLength>0</OrderLength>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основной план счетов</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<AccountingFlag uuid="c7a11993-ab5f-41cc-bd76-fcbccd2e53b3">
+				<Properties>
+					<Name>Количественный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количественный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</AccountingFlag>
+			<ExtDimensionAccountingFlag uuid="38a6c2a3-cf0c-4b97-8ec8-c15e14a30228">
+				<Properties>
+					<Name>Количественный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количественный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</ExtDimensionAccountingFlag>
+		</ChildObjects>
+	</ChartOfAccounts>
+</MetaDataObject>
